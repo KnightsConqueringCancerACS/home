@@ -42,6 +42,7 @@ hr.sep {
     color: #fff;
     text-align: center;
     animation: glow 1s ease-in-out infinite alternate;
+    text-shadow: 0 0 20px #fff, 0 0 30px #de4dff, 0 0 40px #de4dff, 0 0 50px #de4dff, 0 0 60px #de4dff, 0 0 70px #de4dff, 0 0 80px #de4dff;
 }
 
 .dropdown {
@@ -79,16 +80,6 @@ a:hover, .dropdown:hover .dropbtn {
     display: block;
 }
 
-
-@keyframes glow {
-    from {
-        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px purple, 0 0 40px purple, 0 0 50px purple, 0 0 60px purple, 0 0 70px purple;
-    }
-    
-    to {
-        text-shadow: 0 0 20px #fff, 0 0 30px #de4dff, 0 0 40px #de4dff, 0 0 50px #de4dff, 0 0 60px #de4dff, 0 0 70px #de4dff, 0 0 80px #de4dff;
-    }
-}
 
 .modalText {
     line-height: 1.5;
