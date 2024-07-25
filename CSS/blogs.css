@@ -58,3 +58,11 @@ hr {
     display: flex;
     justify-content: center;
 }
+@media only screen and (max-width: 600px) {
+    .post {
+        width: 99vw;
+
+    }
+    
+}
+
