@@ -82,10 +82,10 @@ function createBlogPost(iterator, arr, bb, type) {
 }
 
 function addBlogs() {
-    for(let i = 0; i < wf.length; i++) {
+    for(let i = wf.length-1; i >= 0; i--) {
         createBlogPost(i, wf, blogBody, "wf");
     }
-    for(let i = 0; i < infog.length; i++) {
+    for(let i = infog.length-1; i >= 0; i--) {
         createBlogPost(i, infog, blogBody2, "infog");
     }
 }
