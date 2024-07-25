@@ -60,7 +60,7 @@ hr {
 }
 @media only screen and (max-width: 600px) {
     .post {
-        width: 99vw;
+        width: 80vw;
 
     }
     
