@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="../JS/navbar.js" defer></script>
     <script src="../JS/blogs.js" defer></script>
+    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+
     <link rel="icon" type="image/x-icon" href="../img/result (3).png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -33,6 +35,8 @@
                 <div class="dropdown-content">
                   <a href="blogs.html#wf">Weekly Facts</a>
                   <a href="blogs.html#infog">Infographics</a>
+                  <a href="blogs.html#rs">Research Summaries</a>
+                  <a href="blogs.html#mb">Mini Biographies</a>
                 </div>
             </div>
             <!-- <li class="nitem"><a href="blogs.html" class="nlink">Past Blogs</a></li> -->
@@ -44,12 +48,24 @@
             <span class="bar"></span>
         </div>
     </nav>
-    <h1 class="overviewTitle" id="navTop">Weekly Facts</h1>
+    <h1 class="overviewTitle" id="navTop" data-aos="flip-down">Weekly Facts</h1>
     <div class="main" id="wf">
 
     </div>
     <h1 class="overviewTitle">Infographics</h1>
     <div class="main" id="infog">
+
+    </div>
+    <h1 class="overviewTitle">Research Summaries</h1>
+    <div class="main" id="rs">
+        <object data="../img/blog/rs/724RS.pdf#view=FitH" type="application/pdf" class="pdfView">
+            <p>Your web browser doesn't have a PDF plugin.
+            Instead you can <a href="https://drive.google.com/file/d/1x-LAtxjwOeSeAwOzI5sMawIZNouW4vbx/view" class="link">click here to view the research summary on a separate page.</a></p>
+        </object>
+        
+    </div>
+    <h1 class="overviewTitle">Mini Biographies</h1>
+    <div class="main" id="mb">
 
     </div>
     <footer>
@@ -63,5 +79,6 @@
             Knights Conquering Cancer &copy; 2024
         </p>
     </footer>
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
 </body>
 </html>

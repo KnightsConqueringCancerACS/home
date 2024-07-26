@@ -1,3 +1,5 @@
+AOS.init();
+
 const hbgr = document.querySelector(".hamburger");
 const menu = document.querySelector(".menu");
 

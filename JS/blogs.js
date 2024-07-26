@@ -13,6 +13,8 @@ class Blog {
 }
 const blogBody = document.querySelector("#wf");
 const blogBody2 = document.querySelector("#infog");
+const blogBody3 = document.querySelector("#rs");
+const blogBody4 = document.querySelector("#mb");
 
 
 // WEEKLY FACTS
@@ -38,22 +40,38 @@ b15 = new Blog("Weekly Fact 7/16/24", "../img/blog/wf/7242.jpg", "Hey! If you're
 b16 = new Blog("Weekly Fact 7/23/24", "../img/blog/wf/7243.jpg", "Attention gamers! Team up with 1UpOnCancer, a charitable organization dedicated to aiding U.S. adults in cancer treatment. Discover how you can contribute or become part of their supportive community at <a href='https://www.1uponcancer.org/' class='link'>1uponcancer.org</a>.");
 
 // INFOGRAPHICS
-i1 = new Blog("May Infographic: Brain Cancer", "../img/blog/infog/524.png", "Go Gray in May! <br><br>In order to raise awareness, each month an infographic will be put up. This month's discusses brain cancer. <br><br>Help raise awareness one neuron at a time. 💡 <br><br>Fight against brain cancer with knowledge and hope.");
+i1 = new Blog("Brain Cancer", "../img/blog/infog/524.png", "Go Gray in May! <br><br>In order to raise awareness, each month an infographic will be put up. This month's discusses brain cancer. <br><br>Help raise awareness one neuron at a time. 💡 <br><br>Fight against brain cancer with knowledge and hope.");
 i2 = new Blog("Cancer Survivors", "../img/blog/infog/624.jpg", "Celebrating the strength and resilience of cancer survivors. Every story is a testament to hope, courage, and the power of community.");
 i3 = new Blog("Leiomyosarcoma", "../img/blog/infog/724.jpg", "Raising awareness for leiomyosarcoma: a rare and aggressive form of cancer. Early detection and research are key. Let's support those fighting this battle and work towards a cure. 💪🎗️");
 
+// RESEARCH SUMMARIES
+
+// r2 = new Blog();
+// r3 = new Blog();
+
+// MINI BIOGRAPHIES
+mb1 = new Blog("Mark Herzlich", "../img/blog/mb/Mark Herzlich.png", "Check out our mini biography on Mark Herzlich.");
+// mb2 = new Blog();
+// mb3 = new Blog();
+
+
 const wf = [b1,b2,b3,b4,b5,b6,b7,b8,b9,b10,b11,b12,b13,b14,b15,b16];
 const infog = [i1,i2,i3];
+// const rs = [r1];
+const mb = [mb1];
 
 function createBlogPost(iterator, arr, bb, type) {
     let divPost = document.createElement("div");
     divPost.classList.add("post");
     divPost.setAttribute('id', `${type}${iterator+1}`);
+    divPost.setAttribute('data-aos', 'flip-down');
+    // divPost.setAttribute('data-aos-anchor-placement', 'top-bottom');
     
     let postImg = document.createElement("img");
     postImg.classList.add("blogImage");
     postImg.src = arr[iterator].imgHref;
     postImg.setAttribute("onclick", "window.open(this.src, '_blank');");
+    
 
     let imgWrap = document.createElement("div");
     imgWrap.classList.add("centerImage");
@@ -88,5 +106,12 @@ function addBlogs() {
     for(let i = infog.length-1; i >= 0; i--) {
         createBlogPost(i, infog, blogBody2, "infog");
     }
+    // for(let i = rs.length-1; i >= 0; i--) {
+    //     createBlogPost(i, rs, blogBody3, "rs");
+    // }
+    for(let i = mb.length-1; i >= 0; i--) {
+        createBlogPost(i, mb, blogBody4, "mb");
+    }
+    
 }
 addBlogs();

@@ -14,7 +14,6 @@ nav.navbar {
 #labcoats {
     width: 70vw;
     height: auto;
-
 }
 #mainCenter {
     display: flex;
@@ -75,9 +74,17 @@ h2 {
     margin: 0px 5px 10px 0px; 
 }
 
+
 @media only screen and (min-width: 900px) {
     #meetteam {
         grid-template-columns: auto auto;
+    }
+    #labcoats {
+        width: auto;
+        height: 70vh;
+    }
+    #VR {
+        grid-column: 1/3;
     }
 }
 

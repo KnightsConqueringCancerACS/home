@@ -5,7 +5,7 @@ nav.navbar {
     font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 #navTop {
-    padding-top: 30px;
+    padding-top: 6vh;
 }
 .post {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -32,7 +32,7 @@ nav.navbar {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    align-items: center;
+    align-items:flex-start;
 }
 hr {
     margin: 50px;
@@ -62,10 +62,19 @@ hr {
     text-decoration: underline;
     color: #0000d1 !important;
 }
+
+.pdfView {
+    height: 80vh;
+    width: 80vw;
+}
 @media only screen and (max-width: 900px) {
     .post {
         width: 80%;
         flex: 0 0 80vw;
+    }
+    .pdfView {
+        height: auto;
+        width: auto;
     }
     
 }
