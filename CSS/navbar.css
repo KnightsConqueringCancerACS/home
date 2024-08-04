@@ -46,7 +46,6 @@ hr.sep {
 }
 
 .dropdown {
-
     overflow: hidden;
 }
 
@@ -54,10 +53,10 @@ hr.sep {
     font-size: 1rem;
     border: none;
     outline: none;
-    padding: 14px 16px;
+    padding: 14px 0px 14px 4vw;
     background-color: inherit;
     font-family: inherit;
-    margin: 0;
+    
 }
 
 a:hover, .dropdown:hover .dropbtn {
@@ -68,7 +67,7 @@ a:hover, .dropdown:hover .dropbtn {
     display: none;
     position: absolute;
     background-color: #d1acce;
-    min-width: 160px;
+    /* min-width: 160px; */
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
 }
@@ -76,7 +75,7 @@ a:hover, .dropdown:hover .dropbtn {
 .dropdown-content a {
     /* float: none; */
     color: black;
-    padding: 12px 16px;
+    padding: 0.5vw 0.8vh;
     text-decoration: none;
     display: block;
     text-align: left;

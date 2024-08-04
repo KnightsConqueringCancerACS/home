@@ -10,7 +10,22 @@
     width: 100%;
 
 }
-figcaption {
+
+#stats {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 4vh 0 4vh 0;
+}
+#stats > img {
+    width: 34vw;
+}
+#interview {
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    display: flex;
+    justify-content: center;
+}
+/* figcaption {
     margin: 10px 0 0 0;
     font-family: Arial;
     font-weight: bold;
@@ -21,7 +36,7 @@ figcaption {
 figure {
     padding: 5px;
     text-align: center;
-}
+} */
 
 
 
