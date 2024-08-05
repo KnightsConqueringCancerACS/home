@@ -4,7 +4,7 @@ body {
 nav.navbar {
     font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-#navTop {
+.navTop {
     padding-top: 6vh;
 }
 .post {

@@ -6,7 +6,7 @@ a, a:visited, a:active {
     text-decoration: none;
 }
 a:hover {
-    color: blue;
+    color: #de4dff;
 }
 * {
     margin: 0;
@@ -198,13 +198,19 @@ footer {
     width: 100%;
     margin-bottom: 0px;
 }
+#addresses {
+    font-size: 1.2rem;
+    text-align: center;
+}
+.socialMedia:hover {
+    color: blue !important;
+}
 .copyright {
     text-align: center;
     padding-bottom: 30px;
 }
 .footertext {
-    margin-left: 30px;
-    font-size: 1.8rem;
+    font-size: 1.7rem;
     text-align: center;
 }
 nav {
