@@ -10,5 +10,5 @@ hbgr.addEventListener('click', () => {
 
 const imgLink = document.querySelector(".logoimg");
 imgLink.addEventListener('click', () => {
-    window.location.href = "../HTML/index.html";
+    window.location.href = "../HTML/index";
 });
