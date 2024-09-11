@@ -96,10 +96,16 @@ a:hover, .dropdown:hover .dropbtn {
     border-radius: 6px;
     font-family: "Lato", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
+.bigdonate:hover {
+    background-color: rgb(69, 18, 77);
+    transform: scale(1.05) !important;
+}
 .bigdonate {
     background-color: #71207dff;
+    transition: transform .1s ease-out; 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border: 0;
+    /* transition: 0.3s; */
     padding: 30px;
     border-radius: 10px;
     color: #ffe1f5;
