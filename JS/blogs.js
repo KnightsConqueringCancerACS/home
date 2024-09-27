@@ -38,11 +38,24 @@ b13 = new Blog("Weekly Fact 6/17/24", "../img/blog/wf/6244.jpg", "Celebrating ou
 b14 = new Blog("Weekly Fact 7/9/24", "../img/blog/wf/7241.jpg", "Together, we can make a difference in the fight against cancer. 🌍 The international community is uniting to strengthen cancer control and make it a global health priority. Let's raise awareness and support efforts to combat this disease worldwide. 💪");
 b15 = new Blog("Weekly Fact 7/16/24", "../img/blog/wf/7242.jpg", "Hey! If you're into YouTube, you'll love eMedTV! It's a great resource for anyone wanting to learn more about cancer. Check it out and hit that follow button <a href='https://www.youtube.com/@emedtv' class='link'>@eMedTV!</a> 🎬📖👩‍⚕️");
 b16 = new Blog("Weekly Fact 7/23/24", "../img/blog/wf/7243.jpg", "Attention gamers! Team up with 1UpOnCancer, a charitable organization dedicated to aiding U.S. adults in cancer treatment. Discover how you can contribute or become part of their supportive community at <a href='https://www.1uponcancer.org/' class='link'>1uponcancer.org</a>.");
+b17 = new Blog("Weekly Fact 7/30/24", "../img/blog/wf/7244.png", "Visit <a href='https://www.childrenscancernetwork.org/' class='link'>childrenscancernetwork.org</a> today!");
+
+b18 = new Blog("Weekly Fact 8/6/24", "../img/blog/wf/8241.jpg", "Truly the GOAT 🐐🎗🤍");
+b19 = new Blog("Weekly Fact 8/13/24", "../img/blog/wf/8242.jpg", "Can you recognize this star? From her iconic role as Gloria in Modern Family to her spot on America’s Got Talent, it’s @sofiavergara ! After her own battle with cancer, Sofia has become a champion for St. Jude Children’s Hospital. Her efforts in raising funds and awareness are truly inspiring. Let’s join her in supporting this amazing cause!💛");
+b20 = new Blog("Weekly Fact 8/20/24", "../img/blog/wf/8243.png", "Fact about Christina Applegate.");
+b21 = new Blog("Weekly Fact 8/27/24", "../img/blog/wf/8244.jpg", "Did you know that Keanu Reeves is not only an action star but also a real-life hero? 🌟 Action Star On-Screen, Real-Life Hero Off-Screen. Discover how his generosity and dedication to cancer research make him a true inspiration beyond Hollywood.");
+
+b22 = new Blog("Weekly Fact 9/3/24", "../img/blog/wf/9241.png", "Learn about Tu Youyou!!! Our first Scientist Of The Week!");
+b23 = new Blog("Weekly Fact 9/10/24", "../img/blog/wf/9242.png", "Learn more about Alfred Russel Wallace! Our second scientist of the week!");
+b24 = new Blog("Weekly Fact 9/17/24", "../img/blog/wf/9243.png", "Learn more about Jennifer Doudna! Our third scientist of the week!");
+
 
 // INFOGRAPHICS
 i1 = new Blog("Brain Cancer", "../img/blog/infog/524.png", "Go Gray in May! <br><br>In order to raise awareness, each month an infographic will be put up. This month's discusses brain cancer. <br><br>Help raise awareness one neuron at a time. 💡 <br><br>Fight against brain cancer with knowledge and hope.");
 i2 = new Blog("Cancer Survivors", "../img/blog/infog/624.jpg", "Celebrating the strength and resilience of cancer survivors. Every story is a testament to hope, courage, and the power of community.");
 i3 = new Blog("Leiomyosarcoma", "../img/blog/infog/724.jpg", "Raising awareness for leiomyosarcoma: a rare and aggressive form of cancer. Early detection and research are key. Let's support those fighting this battle and work towards a cure. 💪🎗️");
+i4 = new Blog("Appendix Cancer", "../img/blog/infog/824.jpg", "Bringing light onto appendix cancer, a rare type of cancer. Swipe through to learn about the different facts, symptoms, treatments and more🧡📓🎗");
+i5 = new Blog("Leukemia", "../img/blog/infog/924.jpg", "Learn more about Leukemia!!🧡🧡🧡");
 
 // RESEARCH SUMMARIES
 
@@ -55,8 +68,8 @@ mb1 = new Blog("Mark Herzlich", "../img/blog/mb/Mark Herzlich.png", "Check out o
 // mb3 = new Blog();
 
 
-const wf = [b1,b2,b3,b4,b5,b6,b7,b8,b9,b10,b11,b12,b13,b14,b15,b16];
-const infog = [i1,i2,i3];
+const wf = [b1,b2,b3,b4,b5,b6,b7,b8,b9,b10,b11,b12,b13,b14,b15,b16,b17,b18,b19,b20,b21,b22,b23,b24];
+const infog = [i1,i2,i3,i4,i5];
 // const rs = [r1];
 const mb = [mb1];
 
