@@ -15,7 +15,7 @@ h1,h2,h3 {
 
 /* #startler {
     z-index: -1;
-    background-image: url("../img/HomescreenIMG.jpg");
+    background-image: url("/img/HomescreenIMG.jpg");
     position: relative;
     height: 50vh;
 
