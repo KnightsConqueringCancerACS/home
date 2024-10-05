@@ -2,9 +2,6 @@ body {
     font-family: 'Lato', sans-serif;
     /* background-color: #c7afe7ff; */
 }
-html {
-    
-}
 nav.navbar {
     font-family: 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
@@ -83,6 +80,9 @@ h2 {
     #labcoats {
         width: auto;
         height: 70vh;
+    }
+    #CS {
+        grid-column: 1/3;
     }
     
 }
