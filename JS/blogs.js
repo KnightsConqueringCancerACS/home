@@ -41,7 +41,7 @@ b16 = new Blog("Weekly Fact 7/23/24", "/img/blog/wf/7243.jpg", "Attention gamers
 b17 = new Blog("Weekly Fact 7/30/24", "/img/blog/wf/7244.png", "Visit <a href='https://www.childrenscancernetwork.org/' class='link'>childrenscancernetwork.org</a> today!");
 
 b18 = new Blog("Weekly Fact 8/6/24", "/img/blog/wf/8241.jpg", "Truly the GOAT 🐐🎗🤍");
-b19 = new Blog("Weekly Fact 8/13/24", "/img/blog/wf/8242.jpg", "Can you recognize this star? From her iconic role as Gloria in Modern Family to her spot on America’s Got Talent, it’s @sofiavergara ! After her own battle with cancer, Sofia has become a champion for St. Jude Children’s Hospital. Her efforts in raising funds and awareness are truly inspiring. Let’s join her in supporting this amazing cause!💛");
+b19 = new Blog("Weekly Fact 8/13/24", "/img/blog/wf/8242.jpg", "Can you recognize this star? From her iconic role as Gloria in Modern Family to her spot on America's Got Talent, it's @sofiavergara ! After her own battle with cancer, Sofia has become a champion for St. Jude Children's Hospital. Her efforts in raising funds and awareness are truly inspiring. Let's join her in supporting this amazing cause!💛");
 b20 = new Blog("Weekly Fact 8/20/24", "/img/blog/wf/8243.png", "Fact about Christina Applegate.");
 b21 = new Blog("Weekly Fact 8/27/24", "/img/blog/wf/8244.jpg", "Did you know that Keanu Reeves is not only an action star but also a real-life hero? 🌟 Action Star On-Screen, Real-Life Hero Off-Screen. Discover how his generosity and dedication to cancer research make him a true inspiration beyond Hollywood.");
 
