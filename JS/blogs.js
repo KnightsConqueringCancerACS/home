@@ -73,7 +73,7 @@ mb3 = new Blog("Adan Canto", "/img/blog/mb/Adan Canto.png", "Discover Adan Canto
 const wf = [b1,b2,b3,b4,b5,b6,b7,b8,b9,b10,b11,b12,b13,b14,b15,b16,b17,b18,b19,b20,b21,b22,b23,b24];
 const infog = [i1,i2,i3,i4,i5];
 // const rs = [r1];
-const mb = [mb2, mb3, mb1];
+const mb = [mb1, mb2, mb3];
 
 function createBlogPost(iterator, arr, bb, type) {
     let divPost = document.createElement("div");
