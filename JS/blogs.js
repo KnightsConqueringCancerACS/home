@@ -64,6 +64,8 @@ i5 = new Blog("Leukemia", "/img/blog/infog/924.jpg", "Learn more about Leukemia!
 
 // MINI BIOGRAPHIES
 mb1 = new Blog("Mark Herzlich", "/img/blog/mb/Mark Herzlich.png", "Check out our mini biography on Mark Herzlich.");
+mb2 = new Blog("Ken Watanabe", "/img/blog/mb/Ken Watanabe.png", "Learn more about Ken Watanabe and his fight against cancer.");
+mb3 = new Blog("Adan Canto", "/img/blog/mb/Adan Canto.png", "Discover Adan Canto's incredible journey against cancer.")
 // mb2 = new Blog();
 // mb3 = new Blog();
 
@@ -71,7 +73,7 @@ mb1 = new Blog("Mark Herzlich", "/img/blog/mb/Mark Herzlich.png", "Check out our
 const wf = [b1,b2,b3,b4,b5,b6,b7,b8,b9,b10,b11,b12,b13,b14,b15,b16,b17,b18,b19,b20,b21,b22,b23,b24];
 const infog = [i1,i2,i3,i4,i5];
 // const rs = [r1];
-const mb = [mb1];
+const mb = [mb2, mb3, mb1];
 
 function createBlogPost(iterator, arr, bb, type) {
     let divPost = document.createElement("div");
