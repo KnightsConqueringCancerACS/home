@@ -20,6 +20,12 @@ h1,h2,h3 {
     height: 50vh;
 
 } */
+#seoForceH1 {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 2vh;
+    color: #f2bae4ff;
+}
 #startlerContainer {
     position: relative;
     text-align: center;
