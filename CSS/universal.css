@@ -147,6 +147,7 @@ html {
     background-color: #71207dff;
     position:fixed;
     width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 body:not(.navbar):not(html) {
     margin-top:calc(2vh + 70px);
