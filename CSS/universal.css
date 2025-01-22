@@ -50,7 +50,7 @@ hr.sep {
 }
 
 .dropdown .dropbtn {
-    font-size: 1rem;
+    font-size: 1.15rem;
     border: none;
     outline: none;
     padding: 14px 0px 14px 4vw;
@@ -70,6 +70,8 @@ a:hover, .dropdown:hover .dropbtn {
     /* min-width: 160px; */
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
+    font-size: 1rem;
+    transform: translateX(20%); /* Centers the dropdown by adjusting it back by 50% of its width */
 }
 
 .dropdown-content a {
@@ -148,6 +150,7 @@ html {
     position:fixed;
     width: 100%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-size: 1.6rem;
 }
 body:not(.navbar):not(html) {
     margin-top:calc(2vh + 70px);
@@ -156,7 +159,7 @@ body:not(.navbar):not(html) {
     margin-top: calc(-2vh - 70px);
 }
 .nlink {
-    font-size: 1rem;
+    font-size: 1.15rem;
 }
 
 .bar {
