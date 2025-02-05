@@ -15,6 +15,7 @@ const blogBody = document.querySelector("#wf");
 const blogBody2 = document.querySelector("#infog");
 const blogBody3 = document.querySelector("#rs");
 const blogBody4 = document.querySelector("#mb");
+const blogBody5 = document.querySelector("#rv");
 
 
 // WEEKLY FACTS
@@ -69,11 +70,14 @@ mb3 = new Blog("Adan Canto", "/img/blog/mb/Adan Canto.png", "Discover Adan Canto
 // mb2 = new Blog();
 // mb3 = new Blog();
 
+rv1 = new Blog("Exploring the Mechanisms Behind CAR-T Cell Therapy", "https://www.youtube.com/embed/3UxFH29d55M");
+rv2 = new Blog("Lung Cancer: The Impact of Smoking and E-Cigarettes", "https://www.youtube.com/embed/jxTkvPSyZpU")
 
 const wf = [b1,b2,b3,b4,b5,b6,b7,b8,b9,b10,b11,b12,b13,b14,b15,b16,b17,b18,b19,b20,b21,b22,b23,b24];
 const infog = [i1,i2,i3,i4,i5];
 // const rs = [r1];
 const mb = [mb1, mb2, mb3];
+const rv = [rv1, rv2];
 
 function createBlogPost(iterator, arr, bb, type) {
     let divPost = document.createElement("div");
@@ -113,6 +117,33 @@ function createBlogPost(iterator, arr, bb, type) {
     divPost.appendChild(divContainer);
     bb.appendChild(divPost);
 }
+function createVideoPost(iterator, arr, bb, type) {
+    let divPost = document.createElement("div");
+    divPost.classList.add("post");
+    divPost.setAttribute('id', `${type}${iterator+1}`);
+    divPost.setAttribute('data-aos', 'flip-down');
+
+    let iframe = document.createElement("iframe");
+    iframe.classList.add("videoFrame");
+    iframe.src = arr[iterator].imgHref;
+    iframe.width = "100%";
+    iframe.height = "315";
+    iframe.setAttribute("frameborder", "0");
+    iframe.setAttribute("allowfullscreen", "");
+
+    let divContainer = document.createElement("div");
+    divContainer.classList.add('container');
+
+    const h2title = document.createElement("H2");
+    h2title.classList.add('btitle');
+    const textNode = document.createTextNode(arr[iterator].title);
+    h2title.appendChild(textNode);
+
+    divContainer.appendChild(h2title);
+    divPost.appendChild(iframe);
+    divPost.appendChild(divContainer);
+    bb.appendChild(divPost);
+}
 
 function addBlogs() {
     for(let i = wf.length-1; i >= 0; i--) {
@@ -127,6 +158,8 @@ function addBlogs() {
     for(let i = mb.length-1; i >= 0; i--) {
         createBlogPost(i, mb, blogBody4, "mb");
     }
-    
+    for(let i = rv.length-1; i >= 0; i--) {
+        createVideoPost(i, rv, blogBody5, "rv");
+    }
 }
 addBlogs();

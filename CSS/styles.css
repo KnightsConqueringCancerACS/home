@@ -7,6 +7,16 @@
     font-size: 1.8rem;
     /* font-size: x-large; */
 }
+.subminitext {
+    text-align: center;
+    font-size: 1.8rem;
+    margin: 10vh 30px 5vh 30px; 
+}
+
+.video {
+    text-align: center;
+    /* margin: 10vh 30px 12vh 30px; */
+}
 h1,h2,h3 {
     color: #71207dff;
 }
