@@ -119,7 +119,7 @@ function createBlogPost(iterator, arr, bb, type) {
 }
 function createVideoPost(iterator, arr, bb, type) {
     let divPost = document.createElement("div");
-    divPost.classList.add("post1");
+    divPost.classList.add("post");
     divPost.setAttribute('id', `${type}${iterator+1}`);
     divPost.setAttribute('data-aos', 'flip-down');
 
@@ -132,10 +132,10 @@ function createVideoPost(iterator, arr, bb, type) {
     iframe.setAttribute("allowfullscreen", "");
 
     let divContainer = document.createElement("div");
-    divContainer.classList.add('container1');
+    divContainer.classList.add('container');
 
     const h2title = document.createElement("H2");
-    h2title.classList.add('btitle1');
+    h2title.classList.add('btitle');
     const textNode = document.createTextNode(arr[iterator].title);
     h2title.appendChild(textNode);
 

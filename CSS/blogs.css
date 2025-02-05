@@ -79,28 +79,3 @@ hr {
     
 }
 
-#rv {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px; 
-    justify-content: center; 
-}
-
-.post1 {
-    width: 48%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.videoFrame1 {
-    width: 100%; 
-    height: 250px;
-}
-
-.container1 {
-    text-align: center;
-    margin-top: 10px;
-}
-
-
