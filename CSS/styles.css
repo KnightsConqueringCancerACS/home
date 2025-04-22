@@ -7,6 +7,12 @@
     font-size: 1.8rem;
     /* font-size: x-large; */
 }
+.thegame {
+    display: flex;
+    justify-content: center;
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+}
 .subminitext {
     text-align: center;
     font-size: 1.8rem;
